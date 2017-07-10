@@ -26,3 +26,7 @@ func toSnakeCase(src string) string {
 func toKebabCase(src string) string {
 	return transform(src, "-")
 }
+
+func toUpperCase(src string) string {
+	return strings.ToUpper(src)
+}

@@ -293,6 +293,8 @@ func (g *Generator) transformValueNames(values []Value, transformMethod string) 
 		transform = toSnakeCase
 	case "kebab":
 		transform = toKebabCase
+	case "upper":
+		transform = toUpperCase
 	default:
 		return
 	}
