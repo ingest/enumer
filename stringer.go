@@ -295,6 +295,8 @@ func (g *Generator) transformValueNames(values []Value, transformMethod string) 
 		transform = toKebabCase
 	case "upper":
 		transform = toUpperCase
+	case "lower":
+		transform = toLowerCase
 	default:
 		return
 	}
