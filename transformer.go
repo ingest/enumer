@@ -30,3 +30,7 @@ func toKebabCase(src string) string {
 func toUpperCase(src string) string {
 	return strings.ToUpper(src)
 }
+
+func toLowerCase(src string) string {
+	return strings.ToLower(src)
+}
